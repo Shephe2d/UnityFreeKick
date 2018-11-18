@@ -545,6 +545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   B_Luo_playerObj: {fileID: 1654196904770768, guid: b3ebd9c89b83eae49840d919ba1770c1,
     type: 2}
+  MeiD_playerObj: {fileID: 1613130046394110, guid: 0e895e9164033bf49aa0da6520dea9a4,
+    type: 2}
 --- !u!4 &31932852
 Transform:
   m_ObjectHideFlags: 0
@@ -5712,7 +5714,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 812899117}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 31932851}
+        m_MethodName: SetPlayerObj
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u6885\u4E1C"
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &812899117
@@ -11171,14 +11184,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 31932851}
-        m_MethodName: SetBLUO
-        m_Mode: 1
+        m_MethodName: SetPlayerObj
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "B\u7F57"
           m_BoolArgument: 1
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,

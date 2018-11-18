@@ -5,7 +5,7 @@ using UnityEngine;
 public class GSetting : MonoBehaviour {
 
     public static string scorePlayerName_1 = "B罗";
-    public static string scorePlayerName_2 = "梅西";
+    public static string scorePlayerName_2 = "梅东";
 
     public static string StrCurPlayerName;
     public static GameObject ObjCurPlayer;
