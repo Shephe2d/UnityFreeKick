@@ -13,7 +13,7 @@ public class GManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
+        //MoveGoalKeeper();
 	}
 
     public void SetPlayerObj(string Name)
